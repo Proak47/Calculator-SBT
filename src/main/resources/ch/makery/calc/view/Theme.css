@@ -1,0 +1,45 @@
+.background {
+    -fx-background-color: #4bcffa
+}
+
+.background_dark {
+    -fx-background-color: #575fcf
+}
+
+.button {
+    -fx-background-color: linear-gradient(#575fcf, #3c40c6);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+    -fx-font-family: "Monaco";
+    -fx-font-size: 24pt;
+}
+
+.button:hover {
+    -fx-background-color: #575fcf;
+}
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: #3c40c6;
+    -fx-text-fill: #bbbbbb;
+  }
+  
+
+
+.label {
+    -fx-font-size: 24pt;
+    -fx-font-family: "Monaco";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Monaco";
+    -fx-text-fill: black;
+    -fx-opacity: 0.9;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#0fbcf9,50%);
+}
+
